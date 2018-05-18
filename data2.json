@@ -1,0 +1,29 @@
+{
+  "CONFIG": {
+      "DRIVER_PATH": "/home/hxtin001/Documents/Project/software/chromedriver",
+      "FILTER_BY": "@hotmail.com"
+  },
+  "CASES": [
+    {
+      "URL": "http://www.email-database.info/email-database.html",
+      "PAGINATION_CSS_SELECTOR": ".container div.row div.col-sm-12.text-center a",
+      "MAIL_LIST_CSS_SELECTOR": "div.col-sm-3 a.titleNews",
+      "MAIL_CSS_SELECTOR": ".container div.col-sm-12 div[style='overflow:auto; max-height:400px; margin-bottom: 25px']"
+    },
+    {
+      "URL": "http://emaildatabaselist.info/email-database.html",
+      "MAIL_LIST_CSS_SELECTOR": "div.col-sm-3 a.titleNews",
+      "MAIL_CSS_SELECTOR": ".container div.col-sm-12 div[style='overflow:auto; max-height:400px; margin-bottom: 25px']"
+    },
+    {
+      "URL": "http://www.emailbiz.info/free-email-list-2.html",
+      "MAIL_LIST_CSS_SELECTOR": "div.col-sm-3 a.titleNews",
+      "MAIL_CSS_SELECTOR": ".container div.col-sm-12 div[style='overflow:auto; max-height:400px; margin-bottom: 25px']"
+    },
+    {
+      "URL": "http://www.download-email-list.com/email-database.html",
+      "MAIL_LIST_CSS_SELECTOR": "div.col-sm-3 a.titleNews",
+      "MAIL_CSS_SELECTOR": ".container div.col-sm-12 div[style='overflow:auto; max-height:400px; margin-bottom: 25px']"
+    }
+  ]
+}
